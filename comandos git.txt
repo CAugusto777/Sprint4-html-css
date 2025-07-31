@@ -1,0 +1,36 @@
+00
+
+1  git init
+2  git status
+3  git add index ou git add .
+4  git commit -m "texto/explicando a att"
+5  git branch -M main 
+5  git remote add origin -link do repositório
+6  git push -u origin 
+
+
+criar nova branch
+
+1 git branch "nome branch"
+2 git checkout "branch que eu vou"
+	Ou
+3 git checkout -b   "novabranch"
+
+Commit anteriores
+
+1 git log (lista commit's)
+2 git reverse id do commit
+
+
+
+
+
+
+
+*Merge
+
+
+
+
+
+
