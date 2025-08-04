@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: rgb(255, 0, 0) 1px solid;
+    /* outline: rgb(255, 0, 0) 1px solid; */
 }
 
 body{
@@ -71,8 +71,9 @@ header {
     padding: 0;
 }
 p{
-    text-align: end;
     
+    align-items: flex-end;
+    margin-top: 10px;
 }
 
 
@@ -102,6 +103,7 @@ p{
 .comparar{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0;
     width: 100%;
     max-width: 900px;
@@ -110,17 +112,20 @@ p{
 
 .horizontal{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 20PX;
+}
+
+
+
+.texto{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    flex-wrap:wrap;
+    
+    
+
 }
-.horizontal td{
-
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-
 .rodape {
     display: flex;
     justify-content: space-between;

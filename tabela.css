@@ -1,0 +1,63 @@
+.texto promo{
+    flex: 0 0 300px;
+    padding-right:  20px;
+
+}
+
+
+.textp promo p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 20px 100px;
+    text-align: left;
+}
+
+.video promo{
+    flex: 1;
+    min-width: 0;
+
+}
+
+.video promo iframe{
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+
+}
+
+.tabelaCarro{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.veiculoCard{
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.veiculoCard img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.VeiculoInf{
+    display: flex;
+    align-items: flex-start;
+}
+
+.VeiculoInf input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 2px 10px 0 0;
+    position: relative;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+

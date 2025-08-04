@@ -60,66 +60,6 @@ header {
     font-weight: bold;
 }
 
-.meio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    
-    min-height: 7px;
-    flex-direction: column;
-    padding: 0;
-}
-p{
-    text-align: end;
-    
-}
-
-
-
-.video{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    
-}
-
-.video iframe{
-    
-
-    top: 0;
-    left: 0;
-    border: none;
-}
-
-
-.comparar{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    width: 100%;
-    max-width: 900px;
-    margin-top: 10px;
-}
-
-.horizontal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap:wrap;
-}
-.horizontal td{
-
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 
 .rodape {
     display: flex;
