@@ -1,7 +1,7 @@
-*, *::before, *::after {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* outline: rgb(255, 0, 0) 1px solid; */
 }
 
 body{
@@ -11,6 +11,11 @@ body{
     display: flex;
     flex-direction: column;
 
+}
+@media(max-width: 480px){
+    body{
+        font-size: 12px;
+    }
 }
 
 header {
@@ -55,40 +60,32 @@ header {
     font-weight: bold;
 }
 
-.meio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 0;
-}
-p{
-    
-    margin-top: 10px;
+.texto promo{
+    flex: 0 0 300px;
+    padding-right:  20px;
+
 }
 
 
-
-.video{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    
+.textp promo p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 20px 100px;
+    text-align: left;
 }
 
-.video iframe{
-    
+.video promo{
+    flex: 1;
+    min-width: 0;
 
-    top: 0;
-    left: 0;
-    border: none;
+}
+
+.video promo iframe{
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+
 }
 
 .tabelaCarro{
@@ -161,7 +158,6 @@ p{
     color: #fff;
     border: none;
     padding: 12px;
-    
     border-radius: 6px;
     font-size: 1rem;
     cursor: pointer;
@@ -175,58 +171,8 @@ p{
 
 }
 
-.submit-botao:hover{
+.submit-botao hover{
     background-color: #00274c;
     color: #fff;
     transform: translateY(-2px);
 }
-
-
-
-
-.texto{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-
-}
-footer {
-    display: flex;
-    
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1351d8;
-    color: #fff; /* Cor do texto */
-    padding: 10px 40px;
-    
-}
-.redeSocial{
-    display: flex;
-    gap: 15px;
-
-}
-.redeSocial p{
-    margin: 5px 0;
-}
-
-.redeSocial img,
-.logofinal img{
-
-    height: 30px;
-    transition: transform 0.3s ease;
-}
-.redeSocial img:hover{
-    transform: scale(1.1);
-}
-
-.direitos{
-    margin: 0;
-    font-size: 14px;
-    text-align: center;
-}
-
-ul {
-    text-align: end;
-}
-
